@@ -1,8 +1,8 @@
 import { createBreakpoints } from "@chakra-ui/theme-tools";
 
 const fonts = {
-  body: "var(--handy-docs-font-family)",
-  heading: "var(--handy-docs-font-family)",
+  body: "var(--handydocs-font-family)",
+  heading: "var(--handydocs-font-family)",
 };
 
 const breakpoints = createBreakpoints({
