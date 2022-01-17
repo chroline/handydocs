@@ -1,37 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
 @import "syntax-highlighting";
 
 html, body, :root {
-  --handy-docs-font-family: 'Spline Sans', sans-serif
-}
-
-#hero {
-  animation: gradient 30s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 50% 0%;
-  }
-}
-
-#content {
-  > * {
-    border-radius: var(--chakra-radii-md);
-  }
-  img, pre {
-    border-radius: var(--chakra-radii-md);
-  }
-  img {
-    box-shadow: var(--chakra-shadows-sm);
-  }
-  pre {
-    box-shadow: var(--chakra-shadows-xs);
-  }
+  --handy-docs-font-family: sans-serif;
 }
