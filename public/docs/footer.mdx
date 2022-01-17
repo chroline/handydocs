@@ -1,0 +1,96 @@
+The footer is found at the bottom of all HandyDocs instances. This is a location for you to conclude your documentation
+by showing your logo, copyright, and social links.
+
+The `footer` part of the HandyDocs configuration file follows a strict structure, represented by the following
+Typescript interface:
+
+```typescript
+interface FooterConfig {
+  copyright: string;
+  socials: {
+    github?: string;
+    twitter?: string;
+    email?: string;
+  };
+  style: {
+    light: { bg: string; color: string; }
+    dark?: { bg: string; color: string; }
+  }
+}
+```
+
+The footer uses the logo provided in the `hero` config section.
+
+# `copyright`
+
+Underneath the logo, a copyright message is displayed. The copyright message contains the copyright symbol ©, the
+current year, and the content you type into the `copyright` field.
+
+For example,
+
+```yaml
+copyright: "Cole Gawin. Released under MIT License."
+```
+
+will produce
+
+```
+© 2022 Cole Gawin. Released under MIT License.
+```
+
+for the copyright message.
+
+# `socials`
+
+You are able to customize which socials are displayed in the footer and where they link to. Currently, only Github,
+Twitter, and email socials are supported, but expect more coming soon!
+
+Each social link is optional, and the order in which they are included is the order in which they will be displayed.
+
+```yaml
+socials:
+  github: https://github.com/chroline/handydocs
+  twitter: https://twitter.com/colegawin_
+  email: mailto:hey@colegaw.in
+```
+
+# `style`
+
+HandyDocs allows you to customize the background and text color of the footer.
+
+- **The background can be an image or a color.**
+
+    ```yaml
+    bg: url("/img/footer-bg.png") # image
+    bg: "#000" # color
+    ```
+
+    The string that is passed to the `bg` property will be passed directly to a `background` CSS property, so any valid
+    CSS background value is accepted.
+- **The text color can be any color.**
+
+    ```yaml
+    color: "#fff"
+    ```
+
+    The string that is passed to the `color` property will be passed directly to a `color` CSS property, so any valid
+    CSS color value is accepted.
+
+You can also customize the footer style for dark and light modes.
+
+```yaml
+light:
+  bg: "#fff"
+  color: "#000"
+dark:
+  bg: "#000"
+  color: "#fff"
+```
+
+<Alert status={"info"}>
+
+<AlertIcon/>
+
+`light` mode is required; `dark` mode is optional.
+
+</Alert>

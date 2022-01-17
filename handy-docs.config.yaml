@@ -1,21 +1,49 @@
 seo:
+  title: HandyDocs
+  description:
 
 hero:
   style:
     light:
-      bg:
-      color:
+      bg: url("hero-bg.png")
+      color: slate.50
+    dark:
+      bg: url("hero-bg-dark.png")
+      color: slate.50
   logo:
-    text:
-  subheading:
+    text: HandyDocs
+  subheading: minimal but capable documentation template.
   info_boxes:
+    - icon: "icons/twitter.svg"
+      title: "@colegawin_"
+      url: "https://twitter.com/colegawin_"
+    - icon: "icons/github.svg"
+      title: GITHUB
+      url: "https://github.com/chroline/handy-docs"
+    - icon: "icons/git-branch.svg"
+      title: 0.0.0
+      url: "#"
 
 footer:
-  copyright:
+  copyright: Cole Gawin. Released under MIT License.
   socials:
+    github: https://github.com/chroline/handydocs
+    twitter: https://twitter.com/colegawin_
+    email: mailto:hey@colegaw.in
   style:
     light:
-      bg:
-      color:
+      bg: "#4b5563"
+      color: white
+    dark:
+      bg: "#111827"
+      color: white
 
 toc:
+  intro: Introduction
+  quick-start: Quickstart
+  config: Configuration file
+  seo: Search engine optimization
+  hero: Hero customization
+  footer: Footer customization
+  content: Table of Contents & content
+  addl: Additonal styling and customizations
