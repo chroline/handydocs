@@ -3,19 +3,19 @@ seo:
 hero:
   style:
     light:
-      bg:
-      color:
+      bg: ""
+      color: ""
   logo:
-    text:
-  subheading:
-  info_boxes:
+    text: ""
+  subheading: ""
+  info_boxes: []
 
 footer:
-  copyright:
-  socials:
+  copyright: ""
+  socials: {}
   style:
     light:
-      bg:
-      color:
+      bg: ""
+      color: ""
 
-toc:
+toc: {}
