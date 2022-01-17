@@ -2,7 +2,7 @@ import React from "react";
 
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
-import config from "../../handy-docs.config.yaml";
+import config from "../../handydocs.config.yaml";
 import { ConfigProvider } from "~/util/ConfigProvider";
 import { ConfigSchema } from "~/util/schema";
 import theme from "~/util/theme";
