@@ -42,6 +42,8 @@ const components: Record<string, React.FC | React.ComponentType> = {
   h1: props => <Heading as={"h1"} size={"xl"} pt={8} {...props} />,
   h2: props => <Heading as={"h2"} size={"lg"} pt={6} {...props} />,
   h3: props => <Heading as={"h3"} size={"md"} pt={4} {...props} />,
+  // links
+  a: props => <a target={"_blank"} {...props} />,
   // code
   pre: props => <Box as={"pre"} overflow={"scroll"} {...props} />,
   // chakra-ui components
