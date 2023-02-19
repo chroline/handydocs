@@ -34,11 +34,12 @@ export default function Home({ content }: _Props) {
       <Navbar />
       <Hero />
       <Accordion allowMultiple defaultIndex={[0]}>
-        {Object.entries(toc).map(([id, title]) => (
-          <Section key={id} title={title}>
-            <Content>{content[id]}</Content>
-          </Section>
-        ))}
+        {toc &&
+          Object.entries(toc).map(([id, title]) => (
+            <Section key={id} title={title}>
+              <Content>{content[id]}</Content>
+            </Section>
+          ))}
       </Accordion>
       <Footer />
     </>

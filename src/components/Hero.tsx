@@ -10,6 +10,8 @@ export function Hero() {
 
   const { colorMode } = useColorMode();
 
+  if (!hero) return <></>;
+
   return (
     <Box
       id={"hero"}

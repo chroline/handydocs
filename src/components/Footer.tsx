@@ -10,6 +10,8 @@ export function Footer() {
 
   const { colorMode } = useColorMode();
 
+  if (!hero || !footer) return <></>;
+
   return (
     <Box
       as={"footer"}
@@ -33,15 +35,33 @@ export function Footer() {
               switch (type) {
                 case "github":
                   return (
-                    <IconButton as={"a"} href={link} aria-label={"Github"} icon={<FaGithub fontSize={"20px"} />} />
+                    <IconButton
+                      key={link}
+                      as={"a"}
+                      href={link}
+                      aria-label={"Github"}
+                      icon={<FaGithub fontSize={"20px"} />}
+                    />
                   );
                 case "twitter":
                   return (
-                    <IconButton as={"a"} href={link} aria-label={"Twitter"} icon={<FaTwitter fontSize={"20px"} />} />
+                    <IconButton
+                      key={link}
+                      as={"a"}
+                      href={link}
+                      aria-label={"Twitter"}
+                      icon={<FaTwitter fontSize={"20px"} />}
+                    />
                   );
                 case "email":
                   return (
-                    <IconButton as={"a"} href={link} aria-label={"Email"} icon={<FaEnvelope fontSize={"20px"} />} />
+                    <IconButton
+                      key={link}
+                      as={"a"}
+                      href={link}
+                      aria-label={"Email"}
+                      icon={<FaEnvelope fontSize={"20px"} />}
+                    />
                   );
               }
             })}
