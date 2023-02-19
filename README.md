@@ -8,7 +8,7 @@
 [![github](https://img.shields.io/badge/github-chroline%2Fwell__app-black?logo=github&style=for-the-badge)](https://github.com/chroline/handydocs)
 [![chat](https://img.shields.io/badge/chat-discussions-success?style=for-the-badge)](https://github.com/chroline/handydocs/discussions)
 
-minimal but capable documentation template.
+**minimal but capable documentation template.**
 
 </div>
 
