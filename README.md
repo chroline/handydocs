@@ -65,7 +65,7 @@ improvements to the project and contributions from open-source developers are gr
 
 If you have a contribution in mind, please check out our
 [Contribution Guide](https://github.com/chroline/handydocs/wiki/Contribution-Guide) for information on how to do so.
-Also, make sure you read our [Code of Conduct](hhttps://github.com/chroline/handydocs/wiki/Code-of-Conduct) to foster an
+Also, make sure you read our [Code of Conduct](https://github.com/chroline/handydocs/wiki/Code-of-Conduct) to foster an
 encouraging sense of community.
 
 # License
