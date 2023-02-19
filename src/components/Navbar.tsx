@@ -10,6 +10,8 @@ export function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { y: scroll } = useWindowScroll();
 
+  if (!hero) return <></>;
+
   return (
     <Flex
       as={"nav"}
