@@ -1,5 +1,7 @@
 <div align="center">
 
+<br />
+
 [![HandyDocs](assets/logo.svg)](https://handydocs.vercel.app)
 
 [![release](https://img.shields.io/github/v/release/chroline/handydocs?include_prereleases&style=for-the-badge)](https://github.com/chroline/handydocs/releases)
@@ -12,7 +14,7 @@
 
 <br />
 
-## Introduction
+# 🌟 Introduction
 
 **HandyDocs** is a documentation boilerplate template for projects that don't have or require complex documentation. It
 is designed to give users a _clear_, _concise_ overview of the documentation provided.
@@ -31,7 +33,7 @@ is designed to give users a _clear_, _concise_ overview of the documentation pro
 
 With this tech stack, each HandyDocs instance is easily configurable & customizable to suite your project.
 
-## Quickstart
+# 🚀 Quickstart
 
 ### _Easy as 1, 2, 3!_
 
@@ -51,12 +53,12 @@ With this tech stack, each HandyDocs instance is easily configurable & customiza
 Since HandyDocs is built with JAMStack technologies, you can deploy your instance to your favorite serverless/static web
 host provider like [Vercel](https://vercel.com/solutions/nextjs) or [Netlify](https://www.netlify.com/with/nextjs/).
 
-## Documentation
+# 📖 Documentation
 
 Read the official docs at **[https://handydocs.vercel.app/](https://handydocs.vercel.app/)** to read the full
 documentation on how to configure your own HandyDocs instance.
 
-## Contributing
+# 🧑‍💻 Contributing
 
 Interested in contributing to the HandyDocs project? Thanks so much for your interest! We are always looking for
 improvements to the project and contributions from open-source developers are greatly appreciated.
@@ -66,7 +68,7 @@ If you have a contribution in mind, please check out our
 Also, make sure you read our [Code of Conduct](https://github.com/chroline/handydocs/wiki/Code-of-Conduct) to foster an
 encouraging sense of community.
 
-# License
+# 📄 License
 
 HandyDocs is free and open-source software licensed under the MIT License.
 [View the full license](https://github.com/chroline/handydocs/blob/main/LICENSE)
