@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import { MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
 
-const dir = "public/docs/";
+const dir = "docs/";
 
 export default async function getContent() {
   const files = fs
