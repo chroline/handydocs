@@ -1,6 +1,21 @@
 seo:
   title: HandyDocs
-  description:
+  description: A minimal but capable documentation template, powered by Next.js and MDX. Created by Cole Gawin.
+  openGraph:
+    type: website
+    url: https://handydocs.vercel.app
+    images:
+      - url: https://handydocs.vercel.app/og-image-1280x640.jpg
+        width: 1280
+        height: 640
+        alt: "HandyDocs: A minimal but capable documentation template, powered by Next.js and MDX."
+      - url: https://handydocs.vercel.app/og-image-800x600.jpg
+        width: 800
+        height: 600
+        alt: "HandyDocs: A minimal but capable documentation template, powered by Next.js and MDX."
+  twitter:
+    cardType: summary_large_image
+    handle: "@colegawin_"
 
 hero:
   style:
