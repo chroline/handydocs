@@ -31,7 +31,10 @@ const styles = {
     w: "full",
     pl: 2,
   },
-  // code
+  // alert
+  ".chakra-alert": {
+    shadow: "xs",
+  },
 };
 
 const components: Record<string, React.FC | React.ComponentType> = {
