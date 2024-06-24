@@ -55,7 +55,7 @@ host provider like [Vercel](https://vercel.com/solutions/nextjs) or [Netlify](ht
 
 # 📖 Documentation
 
-Read the official docs at **[https://handydocs.vercel.app/](https://handydocs.vercel.app/)** to read the full
+Read the official docs at **[https://handydocs.colegaw.in/](https://handydocs.colegaw.in/)** to read the full
 documentation on how to configure your own HandyDocs instance.
 
 # 🧑‍💻 Contributing
