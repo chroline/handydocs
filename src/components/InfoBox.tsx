@@ -6,11 +6,11 @@ import { z } from "zod";
 
 import { InfoBoxSchema } from "~/util/schema";
 
-export function InfoBox(infoBox: z.infer<typeof InfoBoxSchema>) {
+export function InfoBox({ infoBox }: { infoBox: z.infer<typeof InfoBoxSchema> }) {
   return (
     <Box flex={"1"} mt={"-1px"}>
       <Box as={"hr"} w={"full"} bg={"currentColor"} opacity={0.2} m={"0 !important"} />
-      <Flex py={{ base: 10, md: 12 }} align={"center"} justify={"center"}>
+      <Flex py={{ base: 8, md: 10 }} align={"center"} justify={"center"}>
         <LinkBox
           as={VStack}
           align={"center"}

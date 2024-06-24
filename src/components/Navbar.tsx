@@ -26,8 +26,8 @@ export function Navbar() {
         scroll === 0
           ? hero.style[colorMode]?.color || hero.style.light.color
           : colorMode === "light"
-          ? "black"
-          : "white"
+            ? "black"
+            : "white"
       }
       bg={scroll === 0 ? "transparent" : colorMode === "light" ? "rgba(255,255,255,0.8)" : "rgba(0,0,0,0.8)"}
       backdropFilter={"blur(5px)"}
@@ -47,9 +47,12 @@ export function Navbar() {
             {hero.logo.text}
           </Text>
         )}
+
         <IconButton
           aria-label={"toggle color mode"}
+          variant={"ghost"}
           bg={"transparent !important"}
+          color={"currentColor"}
           icon={<Box w={5}>{colorMode === "light" ? <MoonIcon /> : <SunIcon />}</Box>}
           onClick={toggleColorMode}
         />

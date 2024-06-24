@@ -50,7 +50,9 @@ export function Hero() {
           wrap={"wrap"}
           divider={<Box as={"hr"} height={"unset"} bg={"currentColor"} opacity={0.2} m={"0 !important"} />}
         >
-          {hero.info_boxes.map(InfoBox)}
+          {hero.info_boxes.map((infoBox, i) => (
+            <InfoBox key={i} infoBox={infoBox} />
+          ))}
         </HStack>
       </Flex>
     </Box>
