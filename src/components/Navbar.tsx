@@ -1,8 +1,8 @@
 import { Box, Flex, IconButton, Text, useColorMode } from "@chakra-ui/react";
-import { MoonIcon, SunIcon } from "@heroicons/react/solid";
 import { useWindowScroll } from "react-use";
 
 import { useConfig } from "~/util/ConfigProvider";
+import { MoonIcon, SunIcon } from "@heroicons/react/20/solid";
 
 export function Navbar() {
   const { hero } = useConfig();

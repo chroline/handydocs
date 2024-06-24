@@ -10,7 +10,7 @@ import {
   HStack,
   useColorMode,
 } from "@chakra-ui/react";
-import { ChevronDownIcon } from "@heroicons/react/outline";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 export function Section({ title, children }: { title: string; children: React.ReactNode }) {
   const { colorMode } = useColorMode();
