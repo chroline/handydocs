@@ -26,11 +26,11 @@ export function Footer() {
       <Stack mx={"auto"} maxW={"5xl"} w={"full"}>
         <Stack direction={"row"} spacing={"4"} align={"center"} justify={"space-between"}>
           {hero.logo.text && (
-            <Text fontWeight={"bold"} fontSize={"lg"}>
+            <Text fontWeight={"bold"} fontSize={"lg"} color={"currentColor"}>
               {hero.logo.text}
             </Text>
           )}
-          <ButtonGroup variant={"ghost"} color={"inherit"}>
+          <ButtonGroup variant={"ghost"}>
             {Object.entries(footer.socials).map(([type, link]) => {
               switch (type) {
                 case "github":
@@ -41,6 +41,7 @@ export function Footer() {
                       href={link}
                       aria-label={"Github"}
                       icon={<FaGithub fontSize={"20px"} />}
+                      color={"currentColor"}
                     />
                   );
                 case "twitter":
@@ -51,6 +52,7 @@ export function Footer() {
                       href={link}
                       aria-label={"Twitter"}
                       icon={<FaTwitter fontSize={"20px"} />}
+                      color={"currentColor"}
                     />
                   );
                 case "email":
@@ -61,13 +63,14 @@ export function Footer() {
                       href={link}
                       aria-label={"Email"}
                       icon={<FaEnvelope fontSize={"20px"} />}
+                      color={"currentColor"}
                     />
                   );
               }
             })}
           </ButtonGroup>
         </Stack>
-        <Text fontSize={"sm"} alignSelf={{ base: "center", sm: "start" }}>
+        <Text fontSize={"sm"} alignSelf={{ base: "center", sm: "start" }} color={"currentColor"}>
           &copy; {new Date().getFullYear()} {footer.copyright}
         </Text>
       </Stack>

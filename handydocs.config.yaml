@@ -21,10 +21,10 @@ hero:
   style:
     light:
       bg: url("hero-bg.png")
-      color: slate.50
+      color: gray.50
     dark:
       bg: url("hero-bg-dark.png")
-      color: slate.50
+      color: gray.50
   logo:
     text: HandyDocs
   subheading: minimal but capable documentation template.
@@ -47,10 +47,10 @@ footer:
     email: mailto:hey@colegaw.in
   style:
     light:
-      bg: "#4b5563"
-      color: white
+      bg: gray.100
+      color: gray.900
     dark:
-      bg: "#111827"
+      bg: gray.800
       color: white
 
 toc:

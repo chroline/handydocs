@@ -20,6 +20,7 @@ const styles = {
   "ul,ol": {
     w: "full",
     pl: 8,
+    gap: 2,
     "*": {
       mt: 2,
     },
