@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Box, Flex, LinkBox, LinkOverlay, Text, VStack } from "@chakra-ui/react";
-import { ChevronRightIcon } from "@heroicons/react/solid";
+import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import { z } from "zod";
 
 import { InfoBoxSchema } from "~/util/schema";
